@@ -1,13 +1,6 @@
 	TODO (Tasks)
 
-- move title/tagline etc. into the main doc file
-Test Execution Environment for Cross-Language Implementations
-Executable specifications for cross-language parity.
-One specification. One test suite. Many implementations.
-
-- create skeleton documents to explain what teecli does, how it works
-	- include definitions, who would use it, goals/non-goals/anti-goals
-	- start a design log (decisions)
+- continue w/ Design Philo and Architecture sections of the Manual
 
 - put a hashtable in Executer
 - put a dispatch mechanism in Executer
@@ -41,4 +34,6 @@ DONE:
 - split SE/Pair/Atom classes, Reader, and Excuter into separate files
 - added "ruff" to tool-chain (python de-linter)
 - added "shellcheck" to tool-chain (bash de-linter)
+- moved title/subtitle/tagline into the new main doc file
+- started the master "TEECLI Manual"
 
