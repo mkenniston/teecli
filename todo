@@ -8,7 +8,6 @@ One specification. One test suite. Many implementations.
 - create skeleton documents to explain what teecli does, how it works
 	- include definitions, who would use it, goals/non-goals/anti-goals
 	- start a design log (decisions)
-- add linters for bash?
 
 - put a hashtable in Executer
 - put a dispatch mechanism in Executer
@@ -41,4 +40,5 @@ DONE:
 	are installed (full toolchain)
 - split SE/Pair/Atom classes, Reader, and Excuter into separate files
 - added "ruff" to tool-chain (python de-linter)
+- added "shellcheck" to tool-chain (bash de-linter)
 

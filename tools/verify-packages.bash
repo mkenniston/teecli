@@ -1,20 +1,16 @@
 #! /usr/bin/env bash
 
 FAILS=0
-for CMD in racket python ruff
-do
-  RES=`which $CMD`
-  if [ $? -ne 0 ]
-  then
+for CMD in shellcheck racket python ruff; do
+  if RES=$(command -v $CMD); then
+    echo "found $RES"
+  else
     echo "Tool \"$CMD\" is not found.  It must be installed."
     FAILS=1
-  else
-    echo "found $RES"
   fi
 done
 
-if [ $FAILS -eq 0 ]
-then
+if [ $FAILS -eq 0 ]; then
   echo "All tools found, all required packages are present."
 fi
 exit $FAILS
