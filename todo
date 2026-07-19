@@ -11,8 +11,6 @@ One specification. One test suite. Many implementations.
 - create skeleton documents to explain what teecli does, how it works
 	- include definitions, who would use it, goals/non-goals/anti-goals
 	- start a design log (decisions)
-- make a check-config script that verifies all necessary tools
-	are installed (full toolchain)
 - add linters for py, bash?
 
 - put a hashtable in Executer
@@ -42,4 +40,6 @@ DONE:
 	- the Python executer, which prints the original expressions back out
 - created a github repo and linked to local copy
 - changed name of github repo from teecli to TEECLI since it's an acronym
+- added a verify-packages script that verifies all necessary tools
+	are installed (full toolchain)
 
