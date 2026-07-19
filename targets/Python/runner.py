@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/env python
 
 # This is a skeleton program to read ESE (encoded s-expression) data
 # and create the actual s-expressions.  ESE is much easier for a
