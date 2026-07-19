@@ -5,13 +5,10 @@ Test Execution Environment for Cross-Language Implementations
 Executable specifications for cross-language parity.
 One specification. One test suite. Many implementations.
 
-- split SE/Pair/Atom classes into their own file
-- split Reader into its own file
-
 - create skeleton documents to explain what teecli does, how it works
 	- include definitions, who would use it, goals/non-goals/anti-goals
 	- start a design log (decisions)
-- add linters for py, bash?
+- add linters for bash?
 
 - put a hashtable in Executer
 - put a dispatch mechanism in Executer
@@ -42,4 +39,6 @@ DONE:
 - changed name of github repo from teecli to TEECLI since it's an acronym
 - added a verify-packages script that verifies all necessary tools
 	are installed (full toolchain)
+- split SE/Pair/Atom classes, Reader, and Excuter into separate files
+- added "ruff" to tool-chain (python de-linter)
 

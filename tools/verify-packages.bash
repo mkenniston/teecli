@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 FAILS=0
-for CMD in racket python
+for CMD in racket python ruff
 do
   RES=`which $CMD`
   if [ $? -ne 0 ]

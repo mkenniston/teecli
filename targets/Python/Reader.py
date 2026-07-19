@@ -4,7 +4,7 @@
 # to expressions.
 
 import sys
-from SE import *
+from SE import AtomNil, AtomInt, AtomFloat, AtomStr, AtomSym, Pair
 
 class Reader:
 

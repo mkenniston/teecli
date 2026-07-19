@@ -4,8 +4,8 @@
 # and create the actual s-expressions.  ESE is much easier for a
 # machine to read than the original human-readable s-expressions.
  
-from Reader import *
-from Executer import *
+from Reader import Reader
+from Executer import Executer
 
 def main():
   reader = Reader()
