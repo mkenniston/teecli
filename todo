@@ -1,5 +1,13 @@
 	TODO (Tasks)
 
+- move title/tagline etc. into the main doc file
+Test Execution Environment for Cross-Language Implementations
+Executable specifications for cross-language parity.
+One specification. One test suite. Many implementations.
+
+- split SE/Pair/Atom classes into their own file
+- split Reader into its own file
+
 - create skeleton documents to explain what teecli does, how it works
 	- include definitions, who would use it, goals/non-goals/anti-goals
 	- start a design log (decisions)
@@ -33,4 +41,5 @@ DONE:
 	- the Python reader, passed to
 	- the Python executer, which prints the original expressions back out
 - created a github repo and linked to local copy
-- 
+- changed name of github repo from teecli to TEECLI since it's an acronym
+
