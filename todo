@@ -1,0 +1,36 @@
+	TODO (Tasks)
+
+- create skeleton documents to explain what teecli does, how it works
+	- include definitions, who would use it, goals/non-goals/anti-goals
+	- start a design log (decisions)
+- make a check-config script that verifies all necessary tools
+	are installed (full toolchain)
+- add linters for py, bash?
+
+- put a hashtable in Executer
+- put a dispatch mechanism in Executer
+
+- look up exact atom lexical rules, make ESE conform to them
+- implement javascript reader/executer
+- implement c reader/executer
+
+- continue adding languages from wishlist:
+	Python, Java, Javascript
+	C, C++, C# (.NET)
+	Racket, Rust, Go
+	Perl, R, Ruby, PHP
+	Swift, Pascal/Delphi, Visual Basic (.NET), Fortran, Ada
+- someday add Windows support, maybe using "mono" (Visual Basic, etc.)
+
+- Chronian: look at MATLAB (via Java binding) for how they do datetimes
+
+
+DONE:
+- added E opcode in .ese format
+- got the flow running from:
+	- input .tee files, piped to
+	- the compiler (in Racket), ESE output piped to
+	- the Python reader, passed to
+	- the Python executer, which prints the original expressions back out
+- created a github repo and linked to local copy
+- 
