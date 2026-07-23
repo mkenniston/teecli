@@ -13,7 +13,7 @@
 # here because those can vary depending on which Linux distribution
 # and version you are running.
 
-BASH_TOOLS=bash
+ADMIN_TOOLS="bash git"
 RACKET_TOOLS=racket
 PYTHON_TOOLS="python ruff"
 JAVASCRIPT_TOOLS=node
@@ -24,7 +24,7 @@ CSHARP_TOOLS=dotnet
 
 FAILS=0
 for TOOL in \
-	$BASH_TOOLS		\
+	$ADMIN_TOOLS		\
 	$RACKET_TOOLS		\
 	$PYTHON_TOOLS		\
 	$JAVASCRIPT_TOOLS	\
