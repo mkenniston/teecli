@@ -1,9 +1,15 @@
 	TODO (Tasks)
 
 - continue w/ Design Philo and Architecture sections of the Manual
+? change targets/ dir to vm/
+	and ? create a sut/ dir for what gets run (including TEECLI itself)
 
 - put a hashtable in Executer
 - put a dispatch mechanism in Executer
+- figure out how to implement lexical scoping
+- figure out how exceptions/call/cc works
+- figure out how to implement ffi
+- learn to do objects in Racket
 
 - look up exact atom lexical rules, make ESE conform to them
 - implement javascript reader/executer
@@ -36,4 +42,4 @@ DONE:
 - added "shellcheck" to tool-chain (bash de-linter)
 - moved title/subtitle/tagline into the new main doc file
 - started the master "TEECLI Manual"
-
+- added more toolchain to verify-packages script
